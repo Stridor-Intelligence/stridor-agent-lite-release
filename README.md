@@ -1,6 +1,6 @@
 # Stridor Agent Lite
 
-**Your companion for the DeRose Method — strength, flexibility and meditation, from your desktop.**
+**Your Agent System **
 
 Stridor Agent Lite is a desktop app for students and practitioners of the DeRose Method. Access your practice tools, track your progress, and stay connected — all from your Mac or PC.
 
