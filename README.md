@@ -10,6 +10,8 @@ Stridor Agent System Lite is currently available as a **macOS development beta**
 
 [Download the latest macOS release](https://github.com/Stridor-Intelligence/stridor-agent-lite-release/releases)
 
+[Step-by-step macOS install guide](INSTALLING_STRIDOR_AGENT_LITE.md)
+
 Choose the build for your Mac:
 
 - **Apple Silicon**: M1, M2, M3, M4 and newer Macs
