@@ -1,31 +1,72 @@
-# Stridor Agent Lite
+# Stridor Agent System Lite
 
-Desktop client for the Stridor AI agent platform. Run a team of AI specialists to help with research, planning, content creation, automation, and project management.
+**AI that actually works.** We have used our experience managing businesses and teams to create an AI team that helps you plan, research, write, organise, and move work forward from one desktop app.
 
----
+## Download
 
-## About
+### macOS
 
-Stridor Agent Lite is a multi-agent desktop operating system. It runs a team of AI specialists — each with their own domain expertise — that work together to help you get things done, from idea to finished output.
+Stridor Agent System Lite is currently available as a **macOS development beta**.
 
-Built with [Electron](https://www.electronjs.org/) and packaged with [electron-builder](https://www.electron.build/).
+[Download the latest macOS release](https://github.com/Stridor-Intelligence/stridor-agent-lite-release/releases)
 
----
+Choose the build for your Mac:
 
-## Platform Support
+- **Apple Silicon**: M1, M2, M3, M4 and newer Macs
+- **Intel**: older Intel-based Macs
 
-| Platform | Architecture | Status |
-|---|---|---|
-| macOS | Apple Silicon (M1–M4) | Supported |
-| macOS | Intel (x64) | Supported |
-| Windows | x64 | Supported |
+> macOS may warn that the app is from an unidentified developer while we are still in development release. We are actively improving packaging, signing, and release polish.
 
----
+### Windows
 
-## Releases
+Windows is not available yet.
 
-Pre-built installers for macOS and Windows will be published on this repository's Releases page when available.
+Join the Windows waiting list from the Stridor website when it opens. Windows release notes will also be posted here.
 
----
+## What Is Stridor Agent System Lite?
 
-© Stridor IQ
+Stridor Agent System Lite is a customised desktop version of OpenCode with Stridor's AI team system built in. Instead of starting from an empty chat box, you get a practical team of AI specialists designed around how real work gets done: planning, research, writing, operations, quality checks, and project follow-through.
+
+We suggest using the free **OpenZen** model path when available, but you can also bring your own model/provider if you prefer. The goal is simple: make useful AI easier to start, easier to direct, and easier to trust.
+
+## Why Use It?
+
+- Start with an AI team structure, not a blank prompt.
+- Keep project work organised inside a local desktop workspace.
+- Use Stridor's specialist roles for planning, research, content, QA, and execution support.
+- Follow visible update notes as the product improves.
+- Try the free Lite version before Stridor Agent System Pro becomes available.
+
+## User Guide
+
+The user guide is under development.
+
+[Open the under-development user guide](USER_GUIDE.md)
+
+## Upgrade Path
+
+Stridor Agent System Lite is the free entry point.
+
+Stridor Agent System Pro is planned as a paid version with more advanced workflows, stronger operating-system support, and expanded team capabilities. Pro details will be published as the product matures.
+
+## Release Notes
+
+This repository is the public download and release-notes home for Stridor Agent System Lite.
+
+| Date | Version / Build | Platform | Notes |
+|---|---|---|---|
+| 2026-06-27 | Development beta | macOS Apple Silicon | Active packaging and release workflow testing. |
+| 2026-06-27 | Development beta | macOS Intel | Active packaging and release workflow testing. |
+| 2026-06-27 | Waiting list | Windows | Windows release path planned after macOS development beta stabilises. |
+
+Full downloadable builds, version tags, build numbers, and checksums are published on the [Releases page](https://github.com/Stridor-Intelligence/stridor-agent-lite-release/releases).
+
+## About This Repository
+
+This public repository is for **downloads and release notes**. It is not the main source-code repository for Stridor Agent System Lite.
+
+## Status
+
+Stridor Agent System Lite is in active development. Expect frequent updates, rough edges, and visible release notes as we improve the app.
+
+© Stridor Intelligence
