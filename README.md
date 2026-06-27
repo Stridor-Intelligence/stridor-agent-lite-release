@@ -10,8 +10,6 @@ Stridor Agent System Lite is currently available as a **macOS development beta**
 
 [Download the latest macOS release](https://github.com/Stridor-Intelligence/stridor-agent-lite-release/releases)
 
-[Step-by-step macOS install guide](INSTALLING_STRIDOR_AGENT_LITE.md)
-
 Choose the build for your Mac:
 
 - **Apple Silicon**: M1, M2, M3, M4 and newer Macs
@@ -70,5 +68,80 @@ This public repository is for **downloads and release notes**. It is not the mai
 ## Status
 
 Stridor Agent System Lite is in active development. Expect frequent updates, rough edges, and visible release notes as we improve the app.
+
+---
+
+## 📖 Installation Guide
+
+This step-by-step guide walks you through installing the macOS development beta. Don't worry — it looks like more steps than it is. Most of them are just macOS confirming you want to open the app.
+
+### 1. Download the Right Build
+
+Go to the [Releases page](https://github.com/Stridor-Intelligence/stridor-agent-lite-release/releases) and download the build for your Mac:
+
+- **Apple Silicon**: M1, M2, M3, M4 and newer Macs
+- **Intel**: older Intel-based Macs
+
+### 2. Open the Downloaded File
+
+After the download finishes, open the `.dmg` file. You should see a window like this:
+
+![Stridor Agent Lite DMG window](assets/installing/01-dmg-window.png)
+
+### 3. Drag Into Applications
+
+Drag **Stridor Agent Lite.app** onto the **Applications** folder in the same window.
+
+When the copy finishes, open your **Applications** folder and double-click **Stridor Agent Lite**.
+
+### 4. If macOS Says the App Was Not Opened
+
+The first time you open the app, macOS may show this message:
+
+![macOS warning that Stridor Agent Lite was not opened](assets/installing/02-not-opened.png)
+
+Click **Done**. Do not click **Move to Bin**.
+
+### 5. Open Privacy & Security
+
+Open **System Settings**, then click **Privacy & Security** in the left sidebar.
+
+Scroll down to the **Security** section. You should see a message saying Stridor Agent Lite was blocked to protect your Mac.
+
+Click **Open Anyway**.
+
+![Privacy and Security showing Open Anyway](assets/installing/03-privacy-security.png)
+
+### 6. Confirm With Your Password
+
+macOS may ask for your administrator password or Touch ID.
+
+Click **Use Password...** and enter your Mac password.
+
+![Privacy and Security password prompt](assets/installing/04-admin-password.png)
+
+### 7. Click Open Anyway (One More Time)
+
+macOS will ask one final time. Click **Open Anyway**.
+
+![Final Open Anyway confirmation](assets/installing/05-open-anyway.png)
+
+Stridor Agent Lite should now open.
+
+### If You See "Damaged and Can't Be Opened"
+
+If macOS says **"Stridor Agent Lite.app" is damaged and can't be opened**, you are probably using an older development build.
+
+Click **Cancel**, delete that copy of the app, then download the latest build from the [Releases page](https://github.com/Stridor-Intelligence/stridor-agent-lite-release/releases).
+
+If the latest build still shows this message, wait for the next release note or contact Stridor support. This is a packaging/signing issue, not something you should fix manually.
+
+### Windows
+
+Windows is not available yet. Join the Windows waiting list from the Stridor website when it opens.
+
+---
+
+*Prefer to read the standalone version? Open the [full install guide](INSTALLING_STRIDOR_AGENT_LITE.md).*
 
 © Stridor Intelligence

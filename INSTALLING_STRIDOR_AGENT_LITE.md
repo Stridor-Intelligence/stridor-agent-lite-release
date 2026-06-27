@@ -69,8 +69,6 @@ Stridor Agent Lite should now open.
 
 If macOS says **"Stridor Agent Lite.app" is damaged and can't be opened**, you are probably using an older development build.
 
-![Damaged app warning](assets/installing/troubleshooting-damaged.png)
-
 Click **Cancel**, delete that copy of the app, then download the latest build from the [Releases page](https://github.com/Stridor-Intelligence/stridor-agent-lite-release/releases).
 
 If the latest build still shows this message, wait for the next release note or contact Stridor support. This message is a packaging/signing issue, not something you should have to fix manually.
