@@ -25,6 +25,22 @@ Every Stridor Agent workspace starts as a copy of this template. Improvements ar
 
 ---
 
+### V3.1 — Packaged App Safety & Usage Meter
+*2026-07-01*
+
+The packaged Stridor Agent Lite app receives its first dedicated safety and operating-visibility pass. This release focuses on making destructive reset actions explicit and testable, while giving users a practical daily token meter for free-model usage experiments.
+
+**Key changes:**
+- **Danger Zone reset controls added** — Stridor Agent System settings now expose Full Factory Reset, Reset App State, and Reset Workspace actions in a clearly marked destructive-actions area
+- **Main-process reset confirmation enforced** — each reset IPC handler now shows a native Cancel/Reset confirmation before sidecar shutdown, window destruction, or filesystem deletion can run
+- **Reset scope clarified** — reset copy distinguishes full reset, app-state reset, and workspace-only reset so users know what will be deleted and what will be preserved
+- **Daily token usage meter added** — titlebar now shows a live daily token progress indicator with formatted token count
+- **UTC daily reset behavior added** — token tracking keys usage by UTC date and resets after UTC midnight, including while the app remains open
+- **Daily token ceiling calibrated to field test** — daily meter ceiling updated from 3,000,000 to 36,500,000 tokens after reaching the previous test threshold
+- **Dev-channel local validation completed** — app and desktop typechecks passed, desktop build passed, and the dev-channel app bundle was verified during local testing
+
+---
+
 ### V3.0 — Changelog & Public Readiness
 *2026-06-27*
 
